@@ -24,5 +24,7 @@ def index():
 def index1(name):
 	some1 = {'username': name+"\'s"}
 	return render_template('index.html', title='Home', user=some1)
+
+	### This worked perfectly ###
 '''
 
